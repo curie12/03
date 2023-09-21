@@ -3,15 +3,12 @@
 
 int main(int argc, char *argv[])
 {
-  char c;
-  int i;
+  char input_alpha;
   
-  printf("input a number :");
-  scanf("%c", &c);
+  printf("enter a character : ");
+  scanf("%c", &input_alpha);
   
-  i = c - '0';
-  printf("The input number ASCII is %i\n", c);
-  printf("The input number is %i\n", i);
+  printf("the next character of %c (%i) is %c (%i)\n", input_alpha, input_alpha, input_alpha+1, input_alpha+1);
   
   system("PAUSE");
   return 0;
