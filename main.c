@@ -3,12 +3,14 @@
 
 int main(int argc, char *argv[])
 {
-  char input_alpha;
+  int a, b;
   
-  printf("enter a character : ");
-  scanf("%c", &input_alpha);
+  printf("분자를 입력하세요 : ");
+  scanf("%i", &a);
+  printf("분모를 입력하세요 : ");
+  scanf("%i", &b);
   
-  printf("the next character of %c (%i) is %c (%i)\n", input_alpha, input_alpha, input_alpha+1, input_alpha+1);
+  printf("나누기의 결과는 %f 입니다.\n", (float)a/b);
   
   system("PAUSE");
   return 0;
